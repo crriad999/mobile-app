@@ -5,7 +5,7 @@ function App() {
   let r = 'company';
   return (
     <>
-      <h1>{r} A4 TECH {a * c}</h1>
+      <h1 className="text-red-600">{r} A4 TECH {a + c}</h1>
     </>
   )
 }
